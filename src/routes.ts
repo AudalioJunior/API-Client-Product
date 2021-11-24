@@ -1,5 +1,4 @@
 import { ClientController } from "./controller/ClientController";
-import {UserController} from "./controller/UserController";
 
 export const Routes = [
     {
