@@ -23,8 +23,11 @@ Baixe os arquivos em uma pasta, os descompacte se for necessário, após isso: N
 
 ___
 
-* Diagramas
+# * Diagramas
+
 <img src="/er.jfif" />
+
+<img src="/bd.jfif" />
 
 # *Sprints:*
 
