@@ -23,6 +23,9 @@ Baixe os arquivos em uma pasta, os descompacte se for necessário, após isso: N
 
 ___
 
+* Diagramas
+<img src="/er.jfif" />
+
 # *Sprints:*
 
 * 1º Sprint: Manter Cliente (17/11 – data de entrega) Valor: 1,5 pontos
