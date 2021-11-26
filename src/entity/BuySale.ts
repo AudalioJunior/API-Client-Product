@@ -29,9 +29,9 @@ export class BuySale{
     @JoinColumn({name: "client_id"})
     client: Client;
 
-    // @OneToOne(type => Employee, employeeBuySale => BuySale, {eager: true})
-    // @JoinColumn({name: "employee_id"})
-    // employee: Employee; 
+    @OneToOne(type => Employee, employeeBuySale => BuySale, {eager: true})
+    @JoinColumn({name: "employee_id"})
+    employee: Employee; 
 
     @OneToMany(() => Request, (request) => request.buySale)
     request: Request[];
