@@ -4,8 +4,8 @@ import ClientRepository from "../../repository/ClientRepository/ClientRepository
 import IUpdateClientUseCase from "./IUpdateClientUseCase";
 
 export default class UpdateClientUseCase implements IUpdateClientUseCase{
-    private addressRepository = new AddressRepository()
-    private clientRepository = new ClientRepository()
+    private addressRepository = new AddressRepository();
+    private clientRepository = new ClientRepository();
 
     async execute(client: Client, id: string) {
         try {
