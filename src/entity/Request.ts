@@ -22,4 +22,8 @@ export class Request{
     @OneToOne(type => BuySale, requestBuySale => BuySale, {eager: true})
     @JoinColumn({name: "buySale_id"})
     buySale: BuySale;
+
+    @OneToOne(type => Product, productRequest => Product, {eager: true})
+    @JoinColumn({name: "product_id"})
+    product: Product;
 }

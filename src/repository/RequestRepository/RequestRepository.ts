@@ -5,7 +5,7 @@ import IRequestRepository from "./IRequestRepository";
 
 export default class RequestRepository implements IRequestRepository {
 
-    private ormRepository = getRepository(request)
+    private ormRepository = getRepository(Request)
 
     async requestProduct(request: Request) {
         try {
